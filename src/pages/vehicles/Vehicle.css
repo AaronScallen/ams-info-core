@@ -1,0 +1,51 @@
+.vehicle-details {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: start;
+    grid-gap: 60px;
+  }
+  
+  /* vehicle summary */
+  .vehicle-summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  .vehicle-summary .entryDate {
+    margin: 10px 0;
+    font-size: 0.5em;
+    color: var(--title-color);
+  }
+  .vehicle-summary .details {
+    margin: 20px 0;
+    color: blue;
+    line-height: 1.8em;
+    font-size: 0.7em;
+  }
+  .vehicle-summary .vehmake {
+    margin: 20px 0;
+    color: blue;
+    line-height: 1.8em;
+    font-size: 0.9em;
+  }
+  .vehicle-summary h4 {
+    color: var(--text-color);
+    font-size: 0.9em;
+  }
+  .vehicle-summary .assigned-users {
+    display: flex;
+    margin-top: 20px;
+  }
+  .vehicle-summary .assigned-users .avatar {
+    margin-right: 10px;
+  }
+  .vehicle-summary + .btn {
+    margin-top: 20px;
+  }
+  .vehicle-comments label {
+    margin-bottom: 0px;
+  }
+  .vehicle-comments textarea {
+    min-height: 40px;
+    font-size: 1.5em;
+  }
